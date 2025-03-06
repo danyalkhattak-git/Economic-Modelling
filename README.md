@@ -6,7 +6,6 @@ This project delves into the intricate dynamics of an economic model that elucid
 
 
 Methodology
-
 Model Calibration
 The initial step involves calibrating the model by determining the values of key parameters.    
 This calibration is achieved by numerically solving a system of four equations using a solver from the scipy.optimize toolbox in Python.    
@@ -33,5 +32,5 @@ The impulse response analysis visualized the adjustments of the variables follow
 The OLS regression results confirmed the consistency of the simulation results with the model's parameters.    
 
 
-4. Conclusion
+Conclusion
 This project provides a comprehensive analysis of an economic model using numerical and statistical methods. The findings shed light on the dynamic interactions between consumption, capital accumulation, and technological shocks, contributing to a better understanding of economic fluctuations and growth. The Python code developed for this project enables further exploration and analysis of the model under different scenarios and assumptions.
