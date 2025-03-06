@@ -8,23 +8,23 @@ This project delves into the intricate dynamics of an economic model that elucid
 
 2. Methodology
 
-  Model Calibration
-  The initial step involves calibrating the model by determining the values of key parameters.    
-  This calibration is achieved by numerically solving a system of four equations using a solver from the scipy.optimize toolbox in Python.    
-  The obtained parameter values ensure that the model accurately reflects the underlying economic relationships.    
-  
-  Simulation of Shocks and Variable Dynamics
-  A sequence of random shocks is generated to simulate the exogenous technology process.    
-  The model is then employed to simulate the dynamic responses of consumption and capital to these shocks over a specified time horizon.    
-  The standard deviations and correlations of these variables with the technology process are calculated to assess their volatility and interdependencies.    
-  
-  Impulse Response Analysis
-  The impulse response functions of consumption and capital to a one-time technology shock are plotted.    
-  This analysis helps visualize and understand the dynamic adjustments of the variables following a shock to the system.    
-  
-  OLS Regression
-  Ordinary Least Squares (OLS) regression is performed on the simulated data to estimate the relationship between consumption, capital, and the technology process.    
-  The estimated coefficients are compared with the model's parameters to assess the consistency of the simulation results.    
+Model Calibration
+The initial step involves calibrating the model by determining the values of key parameters.    
+This calibration is achieved by numerically solving a system of four equations using a solver from the scipy.optimize toolbox in Python.    
+The obtained parameter values ensure that the model accurately reflects the underlying economic relationships.    
+
+Simulation of Shocks and Variable Dynamics
+A sequence of random shocks is generated to simulate the exogenous technology process.    
+The model is then employed to simulate the dynamic responses of consumption and capital to these shocks over a specified time horizon.    
+The standard deviations and correlations of these variables with the technology process are calculated to assess their volatility and interdependencies.    
+
+Impulse Response Analysis
+The impulse response functions of consumption and capital to a one-time technology shock are plotted.    
+This analysis helps visualize and understand the dynamic adjustments of the variables following a shock to the system.    
+
+OLS Regression
+Ordinary Least Squares (OLS) regression is performed on the simulated data to estimate the relationship between consumption, capital, and the technology process.    
+The estimated coefficients are compared with the model's parameters to assess the consistency of the simulation results.    
 
 
 3. Results and Discussion
