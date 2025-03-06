@@ -1,12 +1,11 @@
 # Economic-Modelling
 Analyzing the Dynamics of an Economic Model with Exogenous Shocks
 
-
-1. Introduction
+Introduction
 This project delves into the intricate dynamics of an economic model that elucidates the interplay between consumption, capital accumulation, and technological shocks. The model, represented by a system of equations, captures the equilibrium relationships between key economic variables.    
 
 
-2. Methodology
+Methodology
 
 Model Calibration
 The initial step involves calibrating the model by determining the values of key parameters.    
@@ -27,7 +26,7 @@ Ordinary Least Squares (OLS) regression is performed on the simulated data to es
 The estimated coefficients are compared with the model's parameters to assess the consistency of the simulation results.    
 
 
-3. Results and Discussion
+Results and Discussion
 The numerical solver successfully identified the parameter values, enabling accurate calibration of the model.    
 The simulations revealed the dynamic responses of consumption and capital to technological shocks, highlighting their volatility and interdependencies.    
 The impulse response analysis visualized the adjustments of the variables following a one-time shock, providing insights into the model's dynamics.    
